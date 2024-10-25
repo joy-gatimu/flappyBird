@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: skyblue;
+    margin: 0;
+}
+#game-container{
+    
+    position:relative;
+}
+canvas{
+    background: #70c5ce;
+    display: block;
+}
+#score{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: white;
+}
